@@ -1,0 +1,62 @@
+/* BENEFITS INDEX*/
+.benefits {
+    @extend %list;
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
+
+.benefits__li {
+    width: 100%;
+    
+    @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }}
+
+    @media screen and (min-width: $tablet) {
+        width: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width: $desctop) {
+        width: calc((100% - 90px) / 4);
+    }
+}
+
+.benefits__bg {
+    width: 100%;
+    min-height: 120px;
+    // height: 120px;
+    // width: 270px;
+    margin-bottom: 30px;
+    background-color: $light-bgc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.benefits__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $title-main-color;
+
+    @media screen and (min-width: $tablet) {
+        text-align: left;
+    }
+}
+
+.benefits__text {
+    line-height: 1.7;
+}
