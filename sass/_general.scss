@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $text-bgc-color;
+    color: $text-firstly-color;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.15;
+    padding-top: 60px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /* outline: 2px solid tomato; */
+}
