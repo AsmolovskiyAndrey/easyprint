@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>студия</title>
+    <title>EASYPRINT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +26,89 @@
   <body class="body">
     <!-- Хедер -->
     <header class="header">
-      <div class="container header__flex"></div>
+      <div class="container header--flex">
+        <div class="header__box">
+          <a class="logo" href="./index.html">
+            <svg class="logo-icon" width="120" height="60">
+              <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="mobile">
+          <button
+            class="mobile__button"
+            data-menu-button
+            type="button"
+            aria-expanded="false"
+          >
+            <svg
+              class="mobile__icon"
+              width="40"
+              height="40"
+              aria-label="переключатель для мобильного меню"
+            >
+              <use
+                class="icon-menu"
+                width="40"
+                height="40"
+                href="./images/icons/icons-easyprint.svg#icon-menu"
+              ></use>
+              <use
+                class="icon-cross"
+                width="40"
+                height="40"
+                href="./images/icons/icons-easyprint.svg#icon-cross"
+              ></use>
+            </svg>
+          </button>
+          <div class="mobile-menu" data-menu>
+            <ul class="mobile-menu__all-pages">
+              <li class="mobile-menu__page">
+                <a
+                  class="mobile-menu__link mobile-menu__link--active"
+                  href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="mobile-menu__page">
+                <a class="mobile-menu__link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-menu__page">
+                <a class="mobile-menu__link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__contacts">
+                <a class="mobile-menu__phone" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-menu__contacts">
+                <a class="mobile-menu__letter" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu__social-list">
+              <li class="mobile-menu__all-social">
+                <a class="mobile-menu__social" href="">Instagram</a>
+              </li>
+              <li class="mobile-menu__all-social">
+                <a class="mobile-menu__social" href="">Twitter</a>
+              </li>
+              <li class="mobile-menu__all-social">
+                <a class="mobile-menu__social" href="">Facebook</a>
+              </li>
+              <li class="mobile-menu__all-social">
+                <a class="mobile-menu__social" href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!--Герой -->
