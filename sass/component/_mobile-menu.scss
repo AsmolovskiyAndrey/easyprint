@@ -1,0 +1,39 @@
+.mobile__button {
+    z-index: 100;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    &.is-open .icon-cross {
+        display: block;
+    }
+
+    &.is-open .icon-menu {
+        display: none;
+    }
+}
+.icon-cross {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+
+    &.is-open {
+        position: fixed;
+        background-color: yellow;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+
+        padding: 48px 40px;
+    }
+}
