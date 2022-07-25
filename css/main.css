@@ -14,7 +14,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 /* Убрал точки со списков ul */
@@ -26,6 +25,14 @@ li {
 /* Убрал подчёркивание со ссылок */
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
 }
 
 .header__box {
@@ -85,9 +92,9 @@ a {
   display: none;
 }
 .mobile-menu.is-open {
-  position: fixed;
-  background-color: yellow;
-  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  top: 60px;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -101,4 +108,9 @@ a {
   font-weight: 500;
   letter-spacing: 0.02em;
   padding: 48px 40px;
+}
+
+.footer {
+  background-color: #00a0e3;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

@@ -22,9 +22,9 @@
     display: none;
 
     &.is-open {
-        position: fixed;
-        background-color: yellow;
-        top: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.1);
+        top: 60px;
         left: 0;
         width: 100vw;
         height: 100vh;

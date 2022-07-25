@@ -1,0 +1,12 @@
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $dark-bgc;
+    max-width: 1600px;
+    width: 100%;
+    padding: 118px 45px;
+    text-align: center;
+    margin: 0 auto;
+
+    background-image: $lg, url('../images/hero_all/hero_mobile/hero_mobile.jpg');
+}
