@@ -1,14 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
-    color: black;
+    background-color: $text-white-color;
+    color: $text-main-color;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.15;
     // padding-top: 60px;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;

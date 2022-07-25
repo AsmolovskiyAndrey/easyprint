@@ -1,12 +1,24 @@
 .hero{
+    // display: flex;
+    // align-items: center;
+    background-image: $lg, url('../images/img/hero/hero2.webp');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $dark-bgc;
-    max-width: 1600px;
+    background-size: contain;
+    max-width: 1440px;
+    // min-height: 150px;
     width: 100%;
-    padding: 118px 45px;
-    text-align: center;
+    height: 31vw;
+    // padding: 118px 45px;
     margin: 60px auto 0;
 
-    background-image: $lg, url('../images/img/hero/hero2.webp');
+}
+.hero__container{
+    text-align: center;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    color: $text-white-color;
 }
