@@ -1,14 +1,14 @@
 .hero{
-    // display: flex;
-    // align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-image: $lg, url('../images/img/hero/hero2.webp');
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1440px;
-    // min-height: 150px;
     width: 100%;
     height: 31vw;
-    // padding: 118px 45px;
     margin: 60px auto 0;
 
 }
@@ -20,5 +20,10 @@
     font-size: 20px;
     line-height: 1.62;
     letter-spacing: 0.06em;
-    color: $text-white-color;
+}
+.logo-color1{
+color: $logo-first-color;
+}
+.logo-color2 {
+    color: $logo-second-color;
 }

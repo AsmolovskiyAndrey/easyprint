@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $text-white-color;
+    background-color: $light-bgc;
     color: $text-main-color;
     letter-spacing: 0.03em;
     font-size: 14px;
@@ -30,4 +30,24 @@ h3,
 p,
 ul {
     margin: 0;
+}
+ul {
+    padding-inline-start: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
