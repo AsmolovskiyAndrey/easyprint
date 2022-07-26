@@ -26,7 +26,7 @@
     &.is-open {
         z-index: 10;
         position: fixed;
-        background-color: $background-menu;
+        background-color: $logo-third-color;
         top: 0;
         left: 0;
         width: 100vw;
@@ -39,4 +39,9 @@
 
         padding: 48px 40px;
     }
+}
+.mobile-menu__link{
+    font-weight: 700;
+    font-size: 26px;
+    color: $logo-second-color;
 }

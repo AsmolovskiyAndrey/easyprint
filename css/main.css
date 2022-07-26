@@ -125,7 +125,7 @@ img {
 .mobile-menu.is-open {
   z-index: 10;
   position: fixed;
-  background-color: #E5E5E5;
+  background-color: #d4edfc;
   top: 0;
   left: 0;
   width: 100vw;
@@ -140,6 +140,12 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   padding: 48px 40px;
+}
+
+.mobile-menu__link {
+  font-weight: 700;
+  font-size: 26px;
+  color: #00a0e3;
 }
 
 .hero {
@@ -226,6 +232,7 @@ img {
 }
 
 .footer {
-  background-color: #00a0e3;
+  background-color: #d4edfc;
+  padding: 30px;
   text-align: center;
 }/*# sourceMappingURL=main.css.map */
