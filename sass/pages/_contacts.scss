@@ -1,0 +1,16 @@
+.contacts{
+    text-align: center;
+    margin: 60px auto 10px;
+}
+.contacts__foto{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.contacts__title{
+    font-weight: 500;
+    font-size: 20px;
+}

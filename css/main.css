@@ -71,6 +71,12 @@ img {
   height: 55px;
 }
 
+.h2-title {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 10px;
+}
+
 .header {
   position: fixed;
   z-index: 1;
@@ -365,4 +371,50 @@ img {
 
 .footer__icon--instagram {
   fill: rgb(161, 46, 109);
+}
+
+.contacts {
+  text-align: center;
+  margin: 60px auto 10px;
+}
+
+.contacts__foto {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.contacts__title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.clients {
+  text-align: center;
+  margin: 60px auto 10px;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.clients__li {
+  width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .clients__li {
+    width: calc((100% - 60px) / 3);
+  }
 }/*# sourceMappingURL=main.css.map */
