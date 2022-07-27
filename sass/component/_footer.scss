@@ -6,10 +6,18 @@
 .footer__li:last-child{
     margin-bottom: 15px;
 }
+.footer__li--adress{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+}
 .footer__link{
     display: flex;
     padding: 10px 5px;
 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     color: $logo-second-color;
 }
 .footer__icon{
