@@ -35,6 +35,10 @@ ul {
   margin: 0;
 }
 
+p {
+  text-indent: 15px;
+}
+
 ul {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
@@ -80,11 +84,12 @@ img {
 
 .product-page {
   margin-top: 60px;
+  background-color: #d4edfc;
 }
 
 .product-page__title {
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
@@ -93,7 +98,23 @@ img {
 
 .product-page__img {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto 15px;
+}
+
+.product-page__text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.product-page__title-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .header {
