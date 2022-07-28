@@ -12,3 +12,26 @@
     padding: 20px 10px;
     text-align: center;
 }
+
+// product-page
+
+.product-page{
+    margin-top: 60px;
+}
+.product-page__title{
+    text-align: center;
+    padding: 20px 0;
+
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: $text-title-color;
+}
+.product-page__img{
+    width: 100%;
+    max-width: 1200px;
+    
+}
+.product-page__text{
+
+}

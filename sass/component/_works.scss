@@ -21,9 +21,12 @@
     margin: 0 auto;
     padding: 20px;
 
-
     background-color: $text-white-color;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+    @media screen and (min-width: $tablet) {
+        width: calc((100% - 80px) / 3);
+    }
 }
 .works__title{
     text-align: center;
@@ -33,4 +36,11 @@
     font-size: 22px;
     text-transform: uppercase;
     color: $text-title-color;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;;
+    }
 }
+
+// works-pages
+
