@@ -299,7 +299,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../images/img/hero/hero-2.jpg");
+  background-image: url("../images/img/hero/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
