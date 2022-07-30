@@ -550,11 +550,11 @@ img {
 }
 
 .all-products__img {
-  width: 100px;
+  width: 120px;
   height: auto;
 }
 @media screen and (min-width: 768px) {
   .all-products__img {
-    width: 150px;
+    width: 170px;
   }
 }/*# sourceMappingURL=main.css.map */
