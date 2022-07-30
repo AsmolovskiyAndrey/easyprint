@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EASYPRINT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <!-- Анимация заголовка -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+<body class="body">
+    <!-- Хедер -->
+    <header class="header">
+        <div class="container header--flex">
+        <div class="header__box">
+            <a class="logo" href="./index.html">
+            <svg class="logo-icon" width="100" height="50">
+                <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
+            </svg>
+            </a>
+            <ul class="footer__list header--navigation">
+            <!-- telegram -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://t.me/+380964244700">
+                    <svg class="footer__icon header--icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-telegram"
+                    ></use>
+                    </svg>
+                </a>
+                </li>
+                <!-- viber -->
+                <li class="footer__li">
+                <a class="footer__link" href="viber://chat?number=380964244700">
+                    <svg class="footer__icon header--icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-viber"
+                    ></use>
+                    </svg>
+                </a>
+                </li>
+            </ul>
+            <div class="mobile-button">
+            <button
+                class="mobile__button"
+                data-menu-button
+                type="button"
+                aria-expanded="false"
+            >
+                <svg
+                class="mobile__icon"
+                width="40"
+                height="40"
+                aria-label="переключатель для мобильного меню"
+                >
+                <use
+                    class="icon-menu"
+                    width="40"
+                    height="40"
+                    href="./images/icons/icons-easyprint.svg#icon-menu"
+                ></use>
+                <use
+                    class="icon-cross"
+                    width="40"
+                    height="40"
+                    href="./images/icons/icons-easyprint.svg#icon-cross"
+                ></use>
+                </svg>
+            </button>
+            </div>
+        </div>
+        <div class="mobile">
+            <div class="mobile-menu" data-menu>
+            <ul class="mobile-menu__all-pages">
+                <li class="mobile-menu__page" style="--i:7">
+                <a
+                    class="mobile-menu__link mobile-menu__link--active"
+                    href="./index.html"
+                    onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Головна сторінка</a
+                >
+                <li class="mobile-menu__page" style="--i:6">
+                <a class="mobile-menu__link" href="./about.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Про нас</a>
+                </li>
+                </li>
+                <li class="mobile-menu__page" style="--i:5">
+                <a class="mobile-menu__link" href="./products.html"
+                    onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Наша продукція</a
+                >
+                <li class="mobile-menu__page" style="--i:4">
+                <a class="mobile-menu__link" href="./mamagost.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Журнал "Мама ГОСТ"</a>
+                </li>
+                <li class="mobile-menu__page" style="--i:3">
+                <a class="mobile-menu__link" href="./requirements.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Вимоги до макетів</a>
+                </li>
+                <li class="mobile-menu__page" style="--i:2">
+                <a class="mobile-menu__link" href="./clients.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Нам довіряють</a>
+                </li>
+                </li>
+                <li class="mobile-menu__page" style="--i:1">
+                <a class="mobile-menu__link" href="./contacts.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Контакти</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <!--Сертіфікати-->
+        <section class="product-page">
+            <div class="container">
+                <h3 class="product-page__title">Сертіфікати / Дипломи</h3>
+                <img class="product-page__img" src="./images/img/works-pages/diplomas.jpg" alt="Сертіфікати / Дипломи">
+                <p class="product-page__text">Професійне виготовлення грамот, сертифікатів і дипломів дозволяє реалізувати потреби широкого спектра клієнтів. Друкарня EASYPRINT використовує метод офсетного друку при створенні продукції, яка відповідає основним вимогам та може використовуватися різними навчальними закладами, організаторами різних підприємств і приватними клієнтами. Багато з них зацікавлені в послугах термінової друку. Мінімальний тираж для реалізації даного завдання – від 1000 штук.</p>
+                <p class="product-page__title-text">Яким чином здійснюється друк дипломів</p>
+                <p class="product-page__text">Процес виготовлення дипломів на замовлення здійснюється на щільному папері (не тонше 200 г / кв.м.) За такою технологією, яка передбачає помітне поліпшення якості нанесеного тесту, гербів, логотипів і тиснень. Фахівці можуть запропонувати послугу ламінування окремих сторінок з метою збільшення терміну служби самої продукції</p>
+                <p class="product-page__text">Швидкий друк дипломів та сертифікатів в Харкові проводиться при використанні офсетного друку, завдяки якій забезпечується відносна дешевизна готових примірників. До того ж, подібна методика дозволяє надрукувати чіткий малюнок і відтворювати дрібні елементи. Клієнти цінують швидкість виконання замовлень і якість робіт. Можливо додатково оформити доставку готових дипломів в будь-який район Харкова за попередньою домовленістю.</p>
+                <p class="product-page__text"></p>
+            </div>
+        </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <a class="logo" href="./index.html">
+            <svg class="logo-icon">
+                <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
+            </svg>
+            </a>
+        <div class="footer__adress">
+            <address>
+            <ul class="footer__list">
+                <!-- e-mail -->
+                <li class="footer__li">
+                <a class="footer__link" href="mailto:easyprint77@ukr.net">
+                    <svg class="footer__icon footer__icon--mail">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-mail"
+                    ></use>
+                    </svg>
+                    easyprint77@ukr.net</a>
+                </li>
+                <!-- phone -->
+                <li class="footer__li">
+                <a class="footer__link" href="tel:+380964244700">
+                    <svg class="footer__icon footer__icon--phone">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-phone"
+                    ></use>
+                    </svg>
+                    +38 096 42 44 700 (Яна)</a>
+                </li>
+                <!-- telegram -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://t.me/+380964244700">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-telegram"
+                    ></use>
+                    </svg>
+                Telegram Асмоловська Яна</a>
+                </li>
+                <!-- whats up -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://wa.me/+48732726753">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-whatsapp"
+                    ></use>
+                    </svg>
+                What's up Асмоловська Яна</a>
+                </li>
+                <!-- viber -->
+                <li class="footer__li">
+                <a class="footer__link" href="viber://chat?number=380964244700">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-viber"
+                    ></use>
+                    </svg>
+                Viber Асмоловська Яна</a>
+                </li>
+                <!-- instagram -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://www.instagram.com/yana_asmolovskaya/?igshid=NmZiMzY2Mjc%3D" aria-label="instagram">
+                    <svg class="footer__icon footer__icon--instagram">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-instagram1"
+                    ></use>
+                    </svg>
+                    Insgram yana_asmolovskaya
+                </a>
+                </li>
+                <li class="footer__li footer__li--adress">Адреса: м. Харків, пл.Героїв небесної сотні, 4</li>
+            </ul>
+            </address>
+        </div>
+            <!-- google maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2565.217686354559!2d36.242905915660856!3d49.98852807941431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sde!4v1658859352092!5m2!1sru!2sde" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+    </body>
+</html>
