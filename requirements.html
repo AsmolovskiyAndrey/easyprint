@@ -25,210 +25,235 @@
 </head>
 <body class="body">
 <!-- Хедер -->
-<header class="header">
-<div class="container header--flex">
-    <div class="header__box">
-    <a class="logo" href="./index.html">
-        <svg class="logo-icon" width="100" height="50">
-        <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
-        </svg>
-    </a>
-    <div class="mobile-button">
-        <button
-        class="mobile__button"
-        data-menu-button
-        type="button"
-        aria-expanded="false"
-        >
-        <svg
-            class="mobile__icon"
-            width="40"
-            height="40"
-            aria-label="переключатель для мобильного меню"
-        >
-            <use
-            class="icon-menu"
-            width="40"
-            height="40"
-            href="./images/icons/icons-easyprint.svg#icon-menu"
-            ></use>
-            <use
-            class="icon-cross"
-            width="40"
-            height="40"
-            href="./images/icons/icons-easyprint.svg#icon-cross"
-            ></use>
-        </svg>
-        </button>
-    </div>
-    </div>
-    <div class="mobile">
-    <div class="mobile-menu" data-menu>
-        <ul class="mobile-menu__all-pages">
-        <li class="mobile-menu__page" style="--i:6">
-            <a
-            class="mobile-menu__link mobile-menu__link--active"
-            href="./index.html"
-            onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Головна сторінка</a
-            >
-        <li class="mobile-menu__page" style="--i:5">
-            <a class="mobile-menu__link" href="./about.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Про нас</a>
-        </li>
-        </li>
-        <li class="mobile-menu__page" style="--i:4">
-            <a class="mobile-menu__link" href="./features.html"
-            onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Наші можливості</a
-            >
-        <li class="mobile-menu__page" style="--i:3">
-            <a class="mobile-menu__link" href="./requirements.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Вимоги до макетів</a>
-        </li>
-        <li class="mobile-menu__page" style="--i:2">
-            <a class="mobile-menu__link" href="./clients.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Нам довіряють</a>
-        </li>
-        </li>
-        <li class="mobile-menu__page" style="--i:1">
-            <a class="mobile-menu__link" href="./contacts.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Контакти</a>
-        </li>
+    <header class="header">
+    <div class="container header--flex">
+        <div class="header__box">
+        <a class="logo" href="./index.html">
+            <svg class="logo-icon" width="100" height="50">
+            <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
+            </svg>
+        </a>
+        <ul class="footer__list header--navigation">
+            <!-- telegram -->
+            <li class="footer__li">
+                <a class="footer__link" href="https://t.me/+380964244700">
+                <svg class="footer__icon header--icon">
+                    <use
+                    href="./images/icons/icons-easyprint.svg#icon-telegram"
+                    ></use>
+                </svg>
+                </a>
+            </li>
+            <!-- viber -->
+            <li class="footer__li">
+                <a class="footer__link" href="viber://chat?number=380964244700">
+                <svg class="footer__icon header--icon">
+                    <use
+                    href="./images/icons/icons-easyprint.svg#icon-viber"
+                    ></use>
+                </svg>
+                </a>
+            </li>
         </ul>
-    </div>
-    </div>
-</div>
-</header>
-<main>
-    <!--Требования к макетам -->
-    <section class="requirements">
-        <div class="container">
-            <h2 class="h2-title">Вимоги до макетів:</h2>
-            <div class="requirements__text">
-                <p class="text-important">Під готовим макетом мається на увазі графічний файл, повністю підготовлений до друку, всі необхідні параметри в ньому дотримані, тому не потрібні як додрукарська підготовка, так і редагування змісту. Дизайнер, який здав готовий макет несе повну відповідальність (матеріальну та моральну), при виникненні браку через помилки у підготовці оригінал-макета.</p>
-                <p class="text-important">Оригінал-макет, який допускається до друку, має відповідати таким вимогам:</p>
-                <p class="text-important">1. Вимоги до розмірів.</p>
-                <p>1.1. Розмір макета під висікання повинен виходити за межі різу на 5 мм з кожного краю. Інформаційна частина (адреси, телефони, імена, посади, логотип, назва фірми тощо) повинна розташовуватися не ближче 4 мм від краю макета. Усі елементи «навиліт» мають виступати за межі різання.</p>
-                <p class="text-important">2. Вимоги до файлів макетів:</p>
-                <p>2.1. Приймаються файли макетів двох типів: <br>
-                - Векторний *.CDR - CorelDraw X4 (не вище 14-ї версії). <br>
-                - растровий *TIFF - Tagged Image File Format (без стиснення, без альфа-каналів, всі шари злиті, роздільна здатність 300 dpi. колірна модель CMYK) <br>
-                2.2. Макети створені в програмах сімейства Adobe (Photoshop, illustrator — файли *.Al *.EPS *.PDF, *.PSD) зберігати у форматі *TIFF (без стиснення, без альфа-каналів, всі шари злиті, роздільна здатність 300 dpi. колірна модель) CMYK). <br>
-                2.3. Макети інших форматів НЕ ПРИЙМАЮТЬСЯ!</p>
-                <p class="text-important">3. Вимоги до макетів у форматі CorelDraw (*. CDR).</p>
-                <p>3.1. Текст переведений у криві (curves) (клавіша Ctrl+Q).<br>
-                3.2. Всі ефекти (тіні, лінзи, прозорості, powerclip тощо), а також градієнтні заливки (Fountain Fill) повинні бути конвертовані в растрове зображення (convert to bitmap, роздільна здатність 300 dpi. колірна модель CMYK).<br>
-                3.3. Зображення (картинки, фото) переведені в CMYK bitmap щонайменше 300 dpi. та не більше 600 dpi.<br>
-                3.4. Усі об'єкти мають бути в колірній моделі CMYK.<br>
-                3.5. Готовий макет повністю згрупований (клавіша Ctrl+C), окремо обличчя та окремо оборот.<br>
-                3.6. Після закінчення виготовлення перевірити макет функцією «Властивості документа» (document info) на наявність невідповідностей до таких вимог:<br>
-                - Відсутність тексту (Статистика тексту Текстові об'єкти відсутні not text objects in is document);<br>
-                - Відсутність градієнтних заливок (Fountain Fill);<br>
-                - Відсутність ефектів (Ефекти: в цьому документі немає ефектів Effect's);<br>
-                - відсутність об'єктів RGB та інших палітр крім CMYK та відтінків сірого (grayscale);<br>
-                У разі виявлення невідповідностей виправити.</p>
-                <p class="text-important">4. Додаткові вимоги.</p>
-                <p>4.1. У макетах мінімальна товщина лінії — 0.1 мм (0.3 пт), тонші погано продруковуються.<br>
-                4.2 Сумарна щільність фарб (C+M+Y+K) не повинна перевищувати 250%.<br>
-                4.3. Чорно-білі растрові зображення повинні бути збережені як grayscale-зображення (відтінки сірого).<br>
-                4.4. Чорний текст тільки K=100 (тобто CO MO YO K100}+ накладання чорного (overprint).<br>
-                4.5. Якщо чорна плашка (чорний ФОН) займає більше 30% візитки, його потрібно робити складовим (композитним) кольором C5OM50У50K100, а всім білим векторним об'єктам на цьому тлі створити обведення поза заливкою товщиною не менше 0.25мм кольором СОМОУОК94 (це трепінг).<br>
-                4.6. Файли не повинні містити додаткових шляхів, каналів, шарів, які не використовуються в даному макеті.<br>
-                4.7. По можливості видаляйте направляючі.<br>
-                4.8. Дуже НЕ рекомендується робити рамку по краю візитки (ми їх жартома називаємо «траурними рамками»), вони ніколи не виходять з однаковими полями, оскільки похибка різання +/- 0.5мм.</p>
-                <p class="text-important">5. Часті помилки:</p>
-                <p>5.1. Заливки та абриси у колірній моделі RGB, PANTONE тощо.<br>
-                5.2. Зображення у колірній моделі RGB.<br>
-                5.3. Шрифти, які використовуються в макеті, не переведені в криві.<br>
-                5.4. Дрібний шрифт наданий у растрових зображеннях або зроблений більш ніж у дві фарби (погано читається).<br>
-                5.5. Неправильна роздільна здатність растрових зображень (занадто маленька або занадто велика).<br>
-                5.6. Відсутність вильотів під обрізку, неправильні вильоти чи обрізи, позиціонування за центром.<br>
-                5.7. Використання ефектів та прозоростей.<br>
-                5.8. Важливі елементи (логотипи, текст та ін. інформація) знаходяться близько від краю формату обрізу (ближче, ніж 5 мм).</p>
-                <p class="text-important">Увага! претензії НЕ ПРИЙМАЮТЬСЯ, якщо макет замовника містить:<br>
-                - Помилки правопису<br>
-                — Нескориговані дефекти у використовуваних зображеннях<br>
-                — Невідповідність вимогам до оригінал-макетів.<br>
-                Розміщення заявки означає згоду замовника з вищевикладеними вимогами!</p>
-            </div>
+        <div class="mobile-button">
+            <button
+            class="mobile__button"
+            data-menu-button
+            type="button"
+            aria-expanded="false"
+            >
+            <svg
+                class="mobile__icon"
+                width="40"
+                height="40"
+                aria-label="переключатель для мобильного меню"
+            >
+                <use
+                class="icon-menu"
+                width="40"
+                height="40"
+                href="./images/icons/icons-easyprint.svg#icon-menu"
+                ></use>
+                <use
+                class="icon-cross"
+                width="40"
+                height="40"
+                href="./images/icons/icons-easyprint.svg#icon-cross"
+                ></use>
+            </svg>
+            </button>
         </div>
-    </section>
-</main>
-<!-- Футер -->
-<footer class="footer">
-<div class="container">
-    <a class="logo" href="./index.html">
-        <svg class="logo-icon" width="100" height="50">
-        <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
-        </svg>
-    </a>
-    <div class="footer__adress">
-    <address>
-        <ul class="footer__list">
-        <!-- e-mail -->
-        <li class="footer__li">
-            <a class="footer__link" href="mailto:easyprint77@ukr.net">
-            <svg class="footer__icon footer__icon--mail">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-mail"
-                ></use>
-            </svg>
-            easyprint77@ukr.net</a>
-        </li>
-        <!-- phone -->
-        <li class="footer__li">
-            <a class="footer__link" href="tel:+380964244700">
-            <svg class="footer__icon footer__icon--phone">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-phone"
-                ></use>
-            </svg>
-            +38 096 42 44 700 (Яна)</a>
-        </li>
-        <!-- telegram -->
-        <li class="footer__li">
-            <a class="footer__link" href="https://t.me/+380964244700">
-            <svg class="footer__icon">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-telegram"
-                ></use>
-            </svg>
-            Telegram Асмоловська Яна</a>
-        </li>
-        <!-- whats up -->
-        <li class="footer__li">
-            <a class="footer__link" href="https://wa.me/+380964244700">
-            <svg class="footer__icon">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-whatsapp"
-                ></use>
-            </svg>
-            What's up Асмоловська Яна</a>
-        </li>
-        <!-- viber -->
-        <li class="footer__li">
-            <a class="footer__link" href="viber://chat?number=+380964244700">
-            <svg class="footer__icon">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-viber"
-                ></use>
-            </svg>
-            Viber Асмоловська Яна</a>
-        </li>
-        <!-- instagram -->
-        <li class="footer__li">
-            <a class="footer__link" href="https://www.instagram.com/yana_asmolovskaya/?igshid=NmZiMzY2Mjc%3D" aria-label="instagram">
-            <svg class="footer__icon footer__icon--instagram">
-                <use
-                href="./images/icons/icons-easyprint.svg#icon-instagram1"
-                ></use>
-            </svg>
-            Insgram yana_asmolovskaya
-            </a>
-        </li>
-        <li class="footer__li">Адреса: м. Харків, пл.Героїв небесної сотні, 4</li>
-        </ul>
-    </address>
+        </div>
+        <div class="mobile">
+        <div class="mobile-menu" data-menu>
+            <ul class="mobile-menu__all-pages">
+            <li class="mobile-menu__page" style="--i:7">
+                <a
+                class="mobile-menu__link mobile-menu__link--active"
+                href="./index.html"
+                onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Головна сторінка</a
+                >
+            <li class="mobile-menu__page" style="--i:6">
+                <a class="mobile-menu__link" href="./about.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Про нас</a>
+            </li>
+            </li>
+            <li class="mobile-menu__page" style="--i:5">
+                <a class="mobile-menu__link" href="./products.html"
+                onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Наша продукція</a
+                >
+            <li class="mobile-menu__page" style="--i:4">
+                <a class="mobile-menu__link" href="./mamagost.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Журнал "Мама ГОСТ"</a>
+            </li>
+            <li class="mobile-menu__page" style="--i:3">
+                <a class="mobile-menu__link" href="./requirements.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Вимоги до макетів</a>
+            </li>
+            <li class="mobile-menu__page" style="--i:2">
+                <a class="mobile-menu__link" href="./clients.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Нам довіряють</a>
+            </li>
+            </li>
+            <li class="mobile-menu__page" style="--i:1">
+                <a class="mobile-menu__link" href="./contacts.html" onclick="url=this.href;setTimeout('location.href=url',500);this.href='javascript:void(0)';">Контакти</a>
+            </li>
+            </ul>
+        </div>
+        </div>
     </div>
-    <!-- google maps -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2565.217686354559!2d36.242905915660856!3d49.98852807941431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sde!4v1658859352092!5m2!1sru!2sde" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</footer>
-<script src="./js/menu.js"></script>
+    </header>
+    <main>
+        <!--Требования к макетам -->
+        <section class="requirements">
+            <div class="container">
+                <h2 class="h2-title">Вимоги до макетів:</h2>
+                <div class="requirements__text">
+                    <p class="text-important">Під готовим макетом мається на увазі графічний файл, повністю підготовлений до друку, всі необхідні параметри в ньому дотримані, тому не потрібні як додрукарська підготовка, так і редагування змісту. Дизайнер, який здав готовий макет несе повну відповідальність (матеріальну та моральну), при виникненні браку через помилки у підготовці оригінал-макета.</p>
+                    <p class="text-important">Оригінал-макет, який допускається до друку, має відповідати таким вимогам:</p>
+                    <p class="text-important">1. Вимоги до розмірів.</p>
+                    <p>1.1. Розмір макета під висікання повинен виходити за межі різу на 5 мм з кожного краю. Інформаційна частина (адреси, телефони, імена, посади, логотип, назва фірми тощо) повинна розташовуватися не ближче 4 мм від краю макета. Усі елементи «навиліт» мають виступати за межі різання.</p>
+                    <p class="text-important">2. Вимоги до файлів макетів:</p>
+                    <p>2.1. Приймаються файли макетів двох типів: <br>
+                    - Векторний *.CDR - CorelDraw X4 (не вище 14-ї версії). <br>
+                    - растровий *TIFF - Tagged Image File Format (без стиснення, без альфа-каналів, всі шари злиті, роздільна здатність 300 dpi. колірна модель CMYK) <br>
+                    2.2. Макети створені в програмах сімейства Adobe (Photoshop, illustrator — файли *.Al *.EPS *.PDF, *.PSD) зберігати у форматі *TIFF (без стиснення, без альфа-каналів, всі шари злиті, роздільна здатність 300 dpi. колірна модель) CMYK). <br>
+                    2.3. Макети інших форматів НЕ ПРИЙМАЮТЬСЯ!</p>
+                    <p class="text-important">3. Вимоги до макетів у форматі CorelDraw (*. CDR).</p>
+                    <p>3.1. Текст переведений у криві (curves) (клавіша Ctrl+Q).<br>
+                    3.2. Всі ефекти (тіні, лінзи, прозорості, powerclip тощо), а також градієнтні заливки (Fountain Fill) повинні бути конвертовані в растрове зображення (convert to bitmap, роздільна здатність 300 dpi. колірна модель CMYK).<br>
+                    3.3. Зображення (картинки, фото) переведені в CMYK bitmap щонайменше 300 dpi. та не більше 600 dpi.<br>
+                    3.4. Усі об'єкти мають бути в колірній моделі CMYK.<br>
+                    3.5. Готовий макет повністю згрупований (клавіша Ctrl+C), окремо обличчя та окремо оборот.<br>
+                    3.6. Після закінчення виготовлення перевірити макет функцією «Властивості документа» (document info) на наявність невідповідностей до таких вимог:<br>
+                    - Відсутність тексту (Статистика тексту Текстові об'єкти відсутні not text objects in is document);<br>
+                    - Відсутність градієнтних заливок (Fountain Fill);<br>
+                    - Відсутність ефектів (Ефекти: в цьому документі немає ефектів Effect's);<br>
+                    - відсутність об'єктів RGB та інших палітр крім CMYK та відтінків сірого (grayscale);<br>
+                    У разі виявлення невідповідностей виправити.</p>
+                    <p class="text-important">4. Додаткові вимоги.</p>
+                    <p>4.1. У макетах мінімальна товщина лінії — 0.1 мм (0.3 пт), тонші погано продруковуються.<br>
+                    4.2 Сумарна щільність фарб (C+M+Y+K) не повинна перевищувати 250%.<br>
+                    4.3. Чорно-білі растрові зображення повинні бути збережені як grayscale-зображення (відтінки сірого).<br>
+                    4.4. Чорний текст тільки K=100 (тобто CO MO YO K100}+ накладання чорного (overprint).<br>
+                    4.5. Якщо чорна плашка (чорний ФОН) займає більше 30% візитки, його потрібно робити складовим (композитним) кольором C5OM50У50K100, а всім білим векторним об'єктам на цьому тлі створити обведення поза заливкою товщиною не менше 0.25мм кольором СОМОУОК94 (це трепінг).<br>
+                    4.6. Файли не повинні містити додаткових шляхів, каналів, шарів, які не використовуються в даному макеті.<br>
+                    4.7. По можливості видаляйте направляючі.<br>
+                    4.8. Дуже НЕ рекомендується робити рамку по краю візитки (ми їх жартома називаємо «траурними рамками»), вони ніколи не виходять з однаковими полями, оскільки похибка різання +/- 0.5мм.</p>
+                    <p class="text-important">5. Часті помилки:</p>
+                    <p>5.1. Заливки та абриси у колірній моделі RGB, PANTONE тощо.<br>
+                    5.2. Зображення у колірній моделі RGB.<br>
+                    5.3. Шрифти, які використовуються в макеті, не переведені в криві.<br>
+                    5.4. Дрібний шрифт наданий у растрових зображеннях або зроблений більш ніж у дві фарби (погано читається).<br>
+                    5.5. Неправильна роздільна здатність растрових зображень (занадто маленька або занадто велика).<br>
+                    5.6. Відсутність вильотів під обрізку, неправильні вильоти чи обрізи, позиціонування за центром.<br>
+                    5.7. Використання ефектів та прозоростей.<br>
+                    5.8. Важливі елементи (логотипи, текст та ін. інформація) знаходяться близько від краю формату обрізу (ближче, ніж 5 мм).</p>
+                    <p class="text-important">Увага! претензії НЕ ПРИЙМАЮТЬСЯ, якщо макет замовника містить:<br>
+                    - Помилки правопису<br>
+                    — Нескориговані дефекти у використовуваних зображеннях<br>
+                    — Невідповідність вимогам до оригінал-макетів.<br>
+                    Розміщення заявки означає згоду замовника з вищевикладеними вимогами!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <a class="logo" href="./index.html">
+            <svg class="logo-icon">
+                <use href="./images/icons/icons-easyprint.svg#icon-logo1"></use>
+            </svg>
+            </a>
+        <div class="footer__adress">
+            <address>
+            <ul class="footer__list">
+                <!-- e-mail -->
+                <li class="footer__li">
+                <a class="footer__link" href="mailto:easyprint77@ukr.net">
+                    <svg class="footer__icon footer__icon--mail">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-mail"
+                    ></use>
+                    </svg>
+                    easyprint77@ukr.net</a>
+                </li>
+                <!-- phone -->
+                <li class="footer__li">
+                <a class="footer__link" href="tel:+380964244700">
+                    <svg class="footer__icon footer__icon--phone">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-phone"
+                    ></use>
+                    </svg>
+                    +38 096 42 44 700 (Яна)</a>
+                </li>
+                <!-- telegram -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://t.me/+380964244700">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-telegram"
+                    ></use>
+                    </svg>
+                Telegram Асмоловська Яна</a>
+                </li>
+                <!-- whats up -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://wa.me/+48732726753">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-whatsapp"
+                    ></use>
+                    </svg>
+                What's up Асмоловська Яна</a>
+                </li>
+                <!-- viber -->
+                <li class="footer__li">
+                <a class="footer__link" href="viber://chat?number=380964244700">
+                    <svg class="footer__icon">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-viber"
+                    ></use>
+                    </svg>
+                Viber Асмоловська Яна</a>
+                </li>
+                <!-- instagram -->
+                <li class="footer__li">
+                <a class="footer__link" href="https://www.instagram.com/yana_asmolovskaya/?igshid=NmZiMzY2Mjc%3D" aria-label="instagram">
+                    <svg class="footer__icon footer__icon--instagram">
+                    <use
+                        href="./images/icons/icons-easyprint.svg#icon-instagram1"
+                    ></use>
+                    </svg>
+                    Insgram yana_asmolovskaya
+                </a>
+                </li>
+                <li class="footer__li footer__li--adress">Адреса: м. Харків, пл.Героїв небесної сотні, 4</li>
+            </ul>
+            </address>
+        </div>
+            <!-- google maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2565.217686354559!2d36.242905915660856!3d49.98852807941431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sde!4v1658859352092!5m2!1sru!2sde" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
