@@ -154,8 +154,6 @@ img {
 }
 
 .header--navigation {
-  position: absolute;
-  right: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
