@@ -27,10 +27,10 @@
     align-items: center;
 }
 .all-products__img{
-    width: 70px;
+    width: 100px;
     height: auto;
 
     @media screen and (min-width: $tablet) {
-        width: 100px;
+        width: 150px;
     }
 }
