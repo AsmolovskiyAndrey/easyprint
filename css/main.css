@@ -153,6 +153,17 @@ img {
           align-items: center;
 }
 
+.header--navigation {
+  position: absolute;
+  right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .mobile__button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -384,14 +395,11 @@ img {
   text-align: center;
 }
 
-.footer__li:last-child {
-  margin-bottom: 15px;
-}
-
 .footer__li--adress {
   font-weight: 900;
   font-size: 16px;
   line-height: 19px;
+  padding: 20px 0;
 }
 
 .footer__link {
@@ -409,6 +417,10 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 20px;
+}
+
+.header--icon {
+  margin-right: 0;
 }
 
 .footer__icon--mail {
